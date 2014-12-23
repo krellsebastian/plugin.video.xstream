@@ -96,6 +96,7 @@ class cHosterGui:
         else:
             logger.info('File link: ' + str(sLink))
             print str(msg)
+            oGui.showError('xStream', 'Hosterlink not found', 5)
             return False
 
         
